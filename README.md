@@ -15,7 +15,7 @@ npm install npx -g
 npx create-nx-workspace nx-nest
 ng g node-app api --framework nestjs
 ... upgrade @nestjs from v5 to v6
-npm install @nestjs/platform-express@6.0.0 reflect-metadataG
+npm install @nestjs/platform-express@6.0.0 reflect-metadata
 ```
 
 #### Environment
