@@ -10,19 +10,32 @@ ng g node-app api --framework nestjs
 npm install reflect-metadata @nestjs/platform-express@6.0.0
 ```
 
+#### Environment
+
+```
+Node: v10.15.3
+
+```
+
 #### Commands that work
 
 ```
-ng serve
-ng build
+npm run start
+npm run build
 ```
 
-#### Error produced
+#### Commands that error
 
-Running `ng build` with the `--prod` flag produces the following.
+Running `ng build` with the `--prod` flag fails to build.
 
 ```
-$ ng build --prod                                                                     12:49:53
+npm run build:prod
+```
+
+#### Log
+
+```
+$ ng build --prod
 Starting type checking service...
 Using 6 workers with 2048MB memory limit
 Hash: de380795417288d36cc2
