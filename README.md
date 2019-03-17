@@ -1,6 +1,6 @@
 ### Minimum bug reproduction for Nx & @nestjs v6.0.0
 
-### How this repo was produced
+#### How this repo was produced
 
 ```
 npm install -g npx
@@ -13,8 +13,10 @@ npm install reflect-metadata @nestjs/platform-express@6.0.0
 #### Environment
 
 ```
-Node: v10.15.3
-
+- Nest: 6.0.0
+- Node: 10.15.3
+- Nx: 7.7.1
+- Platform: Linux
 ```
 
 #### Commands that work
