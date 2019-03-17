@@ -1,5 +1,13 @@
 ### Minimum bug reproduction for Nx & @nestjs v6.0.0
 
+Running `ng build` with the `--prod` flag fails to build. Run the following
+
+```
+ng build --prod
+... or ...
+npm run build:prod
+```
+
 #### How this repo was produced
 
 ```
@@ -26,15 +34,9 @@ npm run start
 npm run build
 ```
 
-#### Commands that error
+Also regressing to nestjs@5.7.4 will compile with `ng build --prod`
 
-Running `ng build` with the `--prod` flag fails to build.
-
-```
-npm run build:prod
-```
-
-#### Log
+#### Error log
 
 ```
 $ ng build --prod
