@@ -1,4 +1,4 @@
-### Minimum bug reproduction for Nx & @nestjs v6.0.0
+### Minimum bug reproduction for Nx & nestjs@6.0.0
 
 Running `ng build` with the `--prod` flag fails to build.
 
