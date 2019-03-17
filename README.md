@@ -11,11 +11,11 @@ npm run build:prod
 #### How this repo was produced
 
 ```
-npm install -g npx
+npm install npx -g
 npx create-nx-workspace nx-nest
 ng g node-app api --framework nestjs
 ... upgrade @nestjs from v5 to v6
-npm install reflect-metadata @nestjs/platform-express@6.0.0
+npm install @nestjs/platform-express@6.0.0 reflect-metadata
 ```
 
 #### Environment
